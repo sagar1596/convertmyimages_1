@@ -1,7 +1,5 @@
 import React, {useState, useRef} from 'react';
 import styles from '../styles/Header.module.scss';
-import Image from 'next/image';
-import logo from '../public/logo.png';
 import Link from 'next/link';
 
 const HeaderComponent = () => {
