@@ -53,6 +53,7 @@ const Contact = () => {
 
     return (
         <div className='container container-contact-us'>
+            <h1>Contact Us</h1>
             <div className='ContactForm'>
                 <div className='container'>
                     <div className='row'>
