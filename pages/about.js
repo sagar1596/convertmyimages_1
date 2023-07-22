@@ -10,7 +10,7 @@ const About = () => {
 
             <section>
                 <span className='au-top-section'>
-                Welcome to ConvertMyImages.com, your one-stop destination for all your image conversion needs. We are passionate about providing you with a simple and efficient platform to convert and optimize your images effortlessly. Let's dive into some questions to help you understand our platform better:
+                Welcome to ConvertMyImages.com, your one-stop destination for all your image conversion needs. We are passionate about providing you with a simple and efficient platform to convert and optimize your images effortlessly. Let us dive into some questions to help you understand our platform better:
                 </span>
 
                 <div className="accordion">
@@ -101,7 +101,7 @@ const About = () => {
                 </div>
 
                 <span className='au-bot-section'>
-                At ConvertMyImages.com, we are committed to providing a seamless and convenient image conversion experience. Whether you're a professional photographer, a web developer, or someone who needs to convert images for personal use, we've got you covered. Feel free to explore our platform and unleash the true potential of your images!
+                At ConvertMyImages.com, we are committed to providing a seamless and convenient image conversion experience. Whether you are a professional photographer, a web developer, or someone who needs to convert images for personal use, we have got you covered. Feel free to explore our platform and unleash the true potential of your images!
                 </span>
 
             </section>

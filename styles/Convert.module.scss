@@ -223,5 +223,23 @@
             margin: 1rem 0 2rem;
         }
     }
+
+    &.container-contact-us {
+        .btn-primary {
+            background-color: #f1c40f;
+            color: #000;
+            border: #f1c40f;
+
+            &:hover , &:active{
+                background-color: #f1c40f;
+                color: #000;
+                border: #000;
+            }
+        }
+
+        .errorMessage {
+            color: #ff0000;
+        }
+    }
 }
 

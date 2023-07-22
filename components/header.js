@@ -20,7 +20,6 @@ const HeaderComponent = () => {
             <div ref={linkContainer} className={styles.links}>
                 <Link href="/about"><a className={active === '1' ? styles.active : styles.basic}  data-id="1" onClick={handleClick}>About Us</a></Link>
                 <Link href="/contact"><a className={active === '2' ? styles.active  : styles.basic} onClick={handleClick} data-id="2">Contact Us</a></Link>
-                <Link href="/converttopng"><a className={active === '3' ? styles.active  : styles.basic} onClick={handleClick} data-id="3">To png</a></Link>
             </div>
         </header>
     );
