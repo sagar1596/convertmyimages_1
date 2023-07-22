@@ -5,8 +5,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-      <script async strategy="afterInteractive" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7914014072217717"
-     crossOrigin="anonymous" data-checked-head="true"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5285461307145754" crossorigin="anonymous"></script>
     </Head>
       <body>
         <Main />
