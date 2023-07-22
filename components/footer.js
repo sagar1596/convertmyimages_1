@@ -4,7 +4,7 @@ import styles from '../styles/Footer.module.scss';
 const FooterComponent = () => {
     return (
         <footer className={styles.footer}>
-            <span itemProp="copyright" className={styles.footerCopy}>Copyright © 2022 NEOSOFT</span>
+            <span itemProp="copyright" className={styles.footerCopy}>Copyright © 2023 NEOSOFT</span>
         </footer>
     );
 }
