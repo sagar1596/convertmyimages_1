@@ -23,19 +23,19 @@
 
 .links {
     display: flex;
+    margin-left: auto;
 }
 .links a{
     padding: 0 1rem;
     height: 3rem;
     display: flex;
     align-items: center;
+    color: #f1c40f;
+    text-decoration: none;
 }
-.links a:hover{
-    background-color: #0e1218;
-}
-.active {
-    background-color: #0e1218;
-}
-.basic {
-    
-}
+// .links a:hover{
+//     background-color: #0e1218;
+// }
+// .active {
+//     background-color: #0e1218;
+// }

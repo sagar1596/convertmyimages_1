@@ -17,11 +17,11 @@ const HeaderComponent = () => {
             <div itemScope itemType="https://schema.org/Home" className={styles.logo}>
                 <Link href="/"><a itemProp="url" onClick={() => setActive('1')}><span className={styles.logo}></span> </a></Link>
             </div>
-            {/* <div ref={linkContainer} className={styles.links}>
-                <Link href="/compress"><a className={active === '1' ? styles.active : styles.basic}  data-id="1" onClick={handleClick}>Compress</a></Link>
-                <Link href="/converttojpg"><a className={active === '2' ? styles.active  : styles.basic} onClick={handleClick} data-id="2">To jpg</a></Link>
+            <div ref={linkContainer} className={styles.links}>
+                <Link href="/about"><a className={active === '1' ? styles.active : styles.basic}  data-id="1" onClick={handleClick}>About Us</a></Link>
+                <Link href="/contact"><a className={active === '2' ? styles.active  : styles.basic} onClick={handleClick} data-id="2">Contact Us</a></Link>
                 <Link href="/converttopng"><a className={active === '3' ? styles.active  : styles.basic} onClick={handleClick} data-id="3">To png</a></Link>
-            </div> */}
+            </div>
         </header>
     );
 }

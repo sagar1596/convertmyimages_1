@@ -8,7 +8,7 @@
         font-family: serif;
     }
     
-    h2 {
+    h2:not(.accordion-header) {
         font-size: 1.1rem;
         font-family: serif;
         display: inline-block;
@@ -210,6 +210,17 @@
                     }
                 }
             }
+        }
+    }
+
+    &.container-about-us {
+        .au-top-section {
+            display: inline-block;
+            margin: 1rem 0;
+        }
+        .au-bot-section {
+            display: inline-block;
+            margin: 1rem 0 2rem;
         }
     }
 }
